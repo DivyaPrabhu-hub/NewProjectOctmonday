@@ -10,9 +10,13 @@ public class ExtentDemo {
 	static ExtentReports reports;
 	static ExtentTest logger;
 	
+	/*
+	 * This code i have shared with you over the GitHub
+	 */
+	
 	public static void main(String[] args) {
 		
-		String filename= new SimpleDateFormat("'SampleDemo_'yyyyMMddHHmm'.html'").format(new Date());
+		String filFilename= new SimpleDateFormat("'SampleDemo_'yyyyMMddHHmm'.html'").format(new Date());
 		
 		
 		String path = ("/Users/divya/Desktop/ExtentReport/Report1.html");
